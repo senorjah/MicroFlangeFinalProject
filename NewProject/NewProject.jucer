@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="YvlpHz" name="NewProject" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="ejY4T7" name="NewProject">
+    <GROUP id="{05221944-6922-214A-5A78-9CFCAB3CD079}" name="Source">
+      <GROUP id="{5C95F55C-B1C2-414C-6AF7-58F0C089E16F}" name="New Group"/>
+      <FILE id="CbjM1O" name="LFO.hpp" compile="0" resource="0" file="Source/LFO.hpp"/>
+      <FILE id="ARJIS9" name="LFO.cpp" compile="1" resource="0" file="Source/LFO.cpp"/>
+      <FILE id="LvKlWr" name="AudioHelpers.hpp" compile="0" resource="0"
+            file="Source/AudioHelpers.hpp"/>
+      <FILE id="IRO88c" name="AudioHelpers.cpp" compile="1" resource="0"
+            file="Source/AudioHelpers.cpp"/>
+      <FILE id="XTO5gh" name="flange.hpp" compile="0" resource="0" file="Source/flange.hpp"/>
+      <FILE id="i8kQeY" name="flange.cpp" compile="1" resource="0" file="Source/flange.cpp"
+            skipPCH="1"/>
+      <FILE id="AhtmOX" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="CmvAoC" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="GDSkWx" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="fJYSUO" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../nathanielgladstone/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../nathanielgladstone/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../nathanielgladstone/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../nathanielgladstone/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../nathanielgladstone/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../nathanielgladstone/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../nathanielgladstone/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../nathanielgladstone/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../nathanielgladstone/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../nathanielgladstone/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../nathanielgladstone/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../nathanielgladstone/Documents/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
